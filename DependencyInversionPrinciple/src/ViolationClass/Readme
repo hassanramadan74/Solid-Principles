@@ -1,0 +1,10 @@
+1- The simple Calculator class above with two operations works but what if we want to add a new operation, say Multiply?
+   Adding a new operation to our current Calculator class will modify the current class.
+   This modification will break the “O” in S.O.L.I.D. which is the Open-Close Principle (OCP).
+
+2- So how do we add new operations (or “extend”) our Calculator class without actually doing code changes (“modifications”) to it?
+   This is where Dependency Inversion Principle (DIP) comes into play.
+
+3- The goal that we want right now is to add a new operation to our Calculator class.
+   Looking at the previous methods Add and Subtract we can safely say that we can actually create an interface
+   or a contract that our Calculator uses.

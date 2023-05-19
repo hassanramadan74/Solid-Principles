@@ -1,0 +1,4 @@
+
+After converting the bulky interface ( which has methods that force clients
+to implment ) to small interface with specific goal for each interface ,
+we are now able to say that interface segregation principle is implmented .
